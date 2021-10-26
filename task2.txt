@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TASK2</title>
+<script src="https://kit.fontawesome.com/c502debbd5.js" crossorigin="anonymous"></script>
+,<link rel="stylesheet" href="c:\users\intel\desktop\style.css">
+</head>
+<body>
+<div>
+<h1>How to move to californaia:</h1>
+<h3><ol>
+<li> pack up your stuff:
+<ul>
+<li>kitchen stuff <i class="fas fa-utensil-spoon"></i>
+<li>bedroom stuff <i class="fas fa-bed"></i>
+<li>garage stuff <i class="fas fa-warehouse"></i>
+</ul>
+<li>Drive to californaia <i class="fas fa-car"></i>
+<li>choose and buy an apartment there <i class="fas fa-home"></i>
+</ol></h3></div>
+<div><p><h2><a href="https://www.inspirock.com/">
+<B>The new way to design your trip </B></a><h2></p>
+</div>
+<img src="https://www.gannett-cdn.com/media/2018/01/18/USATODAY/USATODAY/636518813515786266-011618-New-California-state-NEW-Online.png">
+<table>
+  <tr><h2>californaia best places to visit</h2>
+  <th>standford ,  </th><br>
+  <th>The mestry spot ,  </th>
+  <th>Livermore Valley Wine ,</th>
+  <th>Monterey Bay Aquarium    </th></tr>
+</table>
+</body></html>

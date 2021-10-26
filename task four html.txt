@@ -1,0 +1,204 @@
+<html lang="en">
+<head>
+<title>class4</title>
+
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c502debbd5.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="c:\users\intel\desktop\web developing tasks and notes\tasks3 with tail win.mhtml">
+<link rel="stylesheet" href="c:\users\intel\desktop\web developing tasks and notes\style.css">
+</head>
+<body>
+<div class="flex mb-5">
+<div class="background1 w-4/12 h-2 "></div>
+<div class="background2 w-4/12 h-2 "></div>
+<div class="background3 w-4/12 h-2 "></div>
+</div>
+
+<div class="flex ml-32">
+<div class="flex pr-48   ">
+<img src="M.jpg" class="w-16 h-16">
+<p class="mt-3"><font  class=" text-sm font-black ">milseo<br>company</font></p>
+</div>
+<button class="border border-white pr-5 "><font class="text-gray-700 font-bold hover:text-red-500 text-sm">SERVICES</font></button>
+<button class="border border-white pr-5 "><font class="text-gray-700 font-bold hover:text-red-500 text-sm">.  WORKS  .</font></button>
+<button class="border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500 text-sm">  ABOUT  </font></button>
+<button class=" border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500 text-sm">.  NEWS  .</font></button>
+<button class="border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500 text-sm">  CONACT  </font></button>
+<i class="fas fa-bars pt-6 ml-96"></i>
+</div>
+
+
+<div class="flex ml-36 mb-40 mt-20 mr-0">
+<div class="w-4/12 h-screen mt-5">
+<p><font color="#0000" face="veotec Bold" size="48" class="font-bold"><ul class="list-none p-0"><li>Boost Your</li><li> business up to</li><li> high level</li></ul></font></p>
+<p class="mt-5"><font color="#8D8E93">like any great agency,we are only as good as the result we deliver of our recent work</font></p>
+<button class="firstbutton rounded p-2 pr-5 pl-5  mt-10"><font color=white>Get Started</font> </button>
+<p class="mt-10"><font Color="#8D8E93"size="5" >____________________________________</font></p>
+<p class="mt-5 mb-7 text-gray-700 font-bold">if you are in hurry you can call on our number<br>alway 24/7 and we'll help you up</p>
+<div class="flex ">
+<i class="fas fa-phone  border border-black rounded-full  w-10 h-10 text-center pt-3 shadow-lg"></i>
+<p class="text-xs pl-3"><font Color="#8D8E93">Online 24/7<br><font class="text-gray-700 font-bold text-sm">+65-3002 56 56 372</font></font></p>
+
+</div></div>
+<div >
+<img class="img-resbonsive img-resize" src="capture.jpg"/ >
+</div>
+</div>
+
+
+<div class="flex mb-10  mr-0 ">
+<div class="w-6/12 h-screen ">
+<div class="ml-20 mr-2 flex">
+<i class="fa-color fas fa-table fa-5x fa-color border border-black rounded-full  w-52 h-52 text-center pt-10   "><p><font Color="white" class=" text-sm font-bold">web<br>optimization</font></p></i>
+<div id="secondcircuile"class="border border-black rounded-full w-5 h-5 text-center mt-32 ml-10 "></div>
+</div>
+<div class=" mr-2 flex">
+<div id="thirdcircuile"class="border border-black rounded-full w-5 h-5 mt-24 text-center   "></div>
+<i id="fa-color"class="fas fa-envelope fa-4x border border-black rounded-full  w-44 h-44 text-center pt-10 ml-80  "><p><font  class=" text-sm font-bold">Email<br>Marketing</font></p></i>
+</div>
+<div class="ml-20 mr-2 flex">
+<i id="circuilefour"class="fas fa-lightbulb fa-3x fa-color border border-black rounded-full  w-36 h-36 text-center pt-8  "><p><font Color="white" class=" text-sm font-bold">Marketing<br>stretegy</font></p></i>
+<div id="circuilefive"class="border border-black rounded-full w-10 h-10 text-center mt-14 ml-32 "></div>
+</div></div>
+
+<div class="w-6/12 h-full">
+<p ><font color="#0000" face="veotec Bold" class="font-bold text-4xl" >We help you increase<br>sales by improving SEO</font></p>
+<p class="mt-5 mb-7 text-gray-800 font-bold">"We know good design meant that <br>good business"</p>
+<p class="mt-5"><font color="#8D8E93">Andy has dedicated his life to learning what makes humans happy,<br> studies reseches and read everything hecon and resources,<br> and all this this to learn out care improve and -os monols stage ,<br> so you respond Quick and erectw to make forces.</font></p>
+<button class="secondbutton rounded-lg  bg-white border border-red-500 border-4 pt-2 pb-2 pr-12 pl-12 ml-1 mr-1 mt-10"><font color="#FB4B02" class="font-bold">learn more</font> </button>
+</div></div>
+
+
+
+
+<div class="flex ">
+<div class="w-4/12 mt-40 ml-36 ">
+<p ><font color="#0000" face="veotec Bold" class="font-bold text-3xl" >Grow Your Business<br>With Our SEO Agency</font></p>
+<p class="mt-5 mb-7 text-gray-800 font-bold">Over 10 Years Onum helping<br>Companies reach their financial and <br>branding goals</p>
+<p class="mt-5"><font color="#8D8E93">Over the years, we have worked with Fortune 500s <br> and brand-new startups. We help ambitious businesses<br>like yours generate more profits by building awareness,<br> driving web traffic, connecting with customers, and<br>Helping increase sales. Give us a call<br></font></p>
+<div class="flex ">
+<button class="secondbutton rounded-lg  bg-white border border-red-500 border-4 pt-2 pb-2 pr-12 pl-12 ml-1 mr-5 mt-10"><font color="#FB4B02" class="font-bold">Start Now</font> </button>
+<i class="fa-color fas fa-play border rounded-full w-10 h-10 pt-3 pl-1 mt-11 text-center "></i>
+<p class="mt-12 ml-3"><font  class=" text-xs font-black ">VIEW OUR<br>STORY</font></p>
+</div>
+</div>
+<div class="w-8/12 ">
+<div class="grid grid-cols-1">
+<img class="img-resbonsive img-resize2 ml-10 " src="part1.jpg"/ >
+<img class="img-resbonsive img-resize" src="part2.jpg"/ >
+</div>
+</div></div>
+
+<div class="w-50 mt-20 mr-96 ml-36 ">
+<div class="flex justify-between ">
+<div class="flex">
+<p class="firsttext text-3xl font-black">100%</p>
+<p class=" ml-3"><font  class=" text-xs font-black ">satisfaction <br>clients</font></p>
+</div>
+<div class="flex">
+<p class="secondtext text-4xl font-black">250</p>
+<p class=" ml-3 mt-1"><font  class=" text-xs font-black ">Employees on <br>worldwide</font></p>
+</div>
+<div class="flex">
+<p class="thirdtext text-4xl font-black">3,875</p>
+<p class=" ml-3 mt-1"><font  class=" text-xs font-black ">projects completed<br>on 40 countries</font></p>
+</div>
+</div>
+<p class="mt-10"><font Color="#8D8E93"size="5" >___________________________________________________________________________________________________________</font></p>
+</div>
+
+<div class="w-full mb-10 mt-20 ">
+<p class="flex justify-center mb-10" ><font color="#0000" face="veotec Bold" class="font-black text-3xl" >Our Latest Projects</font></p>
+<div class="sliders flex justify-center ">
+<button class="border border-white pr-5 "><font class="text-gray-700 font-bold hover:text-red-500">ALL</font></button>
+<button class="border border-white pr-5 "><font class="text-gray-700 font-bold hover:text-red-500">WEBSITE SEO</font></button>
+<button class="border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500">FB/GG ADS</font></button>
+<button class=" border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500">EMAIL</font></button>
+<button class="border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500">WEB DESIGN</font></button>
+<button class=" border border-white pr-5"><font class="text-gray-700 font-bold hover:text-red-500">VIDEOS</font></button>
+</div>
+</div>
+
+<div class="flex justify-center">
+<div class="row m-5">
+<div class="product-top">
+<img src="C.jpg" class="w-80 h-64">
+<div class="overlay">
+<button type="button" class="btn btn-secondary" title="QUIK SHOP">
+<i class="far fa-eye"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to wish list ">
+<i class="far fa-heart"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to cart">
+<i class="fas fa-shopping-cart"></i></button>
+</div>
+</div>
+<div class="product-text-buttom text-center">
+<div class="stars">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i></div>
+<h1><font class="text-sm font-black">Note Book</font><h1>
+<h1><font class="text-lg font-black">$142,49</font><h1>
+</div></div>
+
+<div class="row m-5">
+<div class="product-top">
+<img src="A.jpg" class="w-80 h-64">
+<div class="overlay">
+<button type="button" class="btn btn-secondary" title="QUIK SHOP">
+<i class="far fa-eye"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to wish list ">
+<i class="far fa-heart"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to cart">
+<i class="fas fa-shopping-cart"></i></button>
+</div>
+</div>
+<div class="product-text-buttom text-center">
+  <div class="stars">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star-half-alt"></i></div>
+<h1><font class="text-sm font-black">Women Watch</font><h1>
+<h1><font class="text-lg font-black">$300</font><h1>
+</div></div>
+
+
+
+<div class="row m-5">
+<div class="product-top">
+<img src="B.jpg" class="w-80 h-64">
+<div class="overlay">
+<button type="button" class="btn btn-secondary" title="QUIK SHOP">
+<i class="far fa-eye"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to wish list ">
+<i class="far fa-heart"></i></button>
+<button type="button" class="btn btn-secondary" title="Add to cart">
+<i class="fas fa-shopping-cart"></i></button>
+</div>
+</div>
+<div class="product-text-buttom text-center">
+  <div class="stars">
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star"></i>
+  <i class="fas fa-star-half-alt"></i></div>
+<h1><font class="text-sm font-black">Boy Watch</font><h1>
+<h1><font class="text-lg font-black">$300</font><h1>
+</div></div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>

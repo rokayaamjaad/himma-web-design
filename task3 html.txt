@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TASK3</title>
+
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c502debbd5.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="c:\users\intel\desktop\style3.css">
+</head>
+<body class="bg-red-50-sm ">
+<div class="firstdiv flex justify-center ">
+
+<p id="tittle"><font size="48" color="#F75153" face="veotec Bold"  flex justify-center> Create Account </font></p></div>
+<div class="centeritem flex justify-center ">
+<a class="border border-black rounded-full  w-10 h-10 text-center pt-2 m-2.5 shadow-lg" href="http://www.google.com/">
+<i class="fab fa-google  "></i></a>
+<a class="border border-black rounded-full  w-10 h-10 text-center pt-2 m-2.5 shadow-lg" href="https://www.facebook.com/">
+<i class="fab fa-facebook-f"></i></a>
+<a class="border border-black rounded-full  w-10 h-10 text-center pt-2 m-2.5 shadow-lg" href="https://twitter.com/">
+<i class="fab fa-twitter"></i></a>
+<a class="border border-black rounded-full  w-10 h-10 text-center pt-2 m-2.5 shadow-lg" href="http://vk.com/">
+<i class="fab fa-vk"></i></a></div>
+<p class="text text-center mt-10 text-xl"><font  color="#6B7375" face="veotec Bold"  >or use your email for registration:</font></p>
+</div>
+<div class="flex items-center bg-gray-100 rounded-lg m-96 mt-0 mb-0"><input class="flex-1 p-2 bg-transparent "name="Name" type="your Name" placeholder="Your Name"></div><br>
+<div class="flex items-center bg-gray-100 rounded-lg m-96 mt-0 mb-0"><input  class="flex-1 p-2 bg-transparent "name="email" type="email" placeholder="Your Email"></div><br>
+<div class="flex items-center bg-gray-100 rounded-lg m-96 mt-0 mb-0"><input class="flex-1 p-2 bg-transparent " name="password" type="password" placeholder="Your password"></div><br>
+</div>
+
+<div class="check-box-group ">
+  <label class="custom-checkbox" tab-index="0" aria-label="Checkbox Label">
+    <input type="checkbox" checked>
+    <span class="checkmark"></span>
+    <span class="label"><ul><li>I agree to the</li><li id="A"> terms</li><li> and </li><li id="B">privacy policy.</li></ul></span>
+  </label></div>
+
+
+<div class="button flex justify-center">
+<button class="firstbutton rounded-lg  bg-red-500 pt-2 pb-2 pr-12 pl-12 ml-1 mr-1 mt-10"><font color=white>sign up</font> </button>
+<button class="secondbutton rounded-lg  bg-white border border-red-500 pt-2 pb-2 pr-12 pl-12 ml-1 mr-1 mt-10"><font color="#F75153">sign in</font> </button>
+</div>
+
+
+
+</body>

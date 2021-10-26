@@ -1,0 +1,51 @@
+foreach(smth => smth.the value I want to show),
+filter(give us the data that we want )
+EX:
+object.filter(object => object .value (the order that we want like==false))
+1) = 
+2)==
+3)===
+ 
+DOM:-
+document.getelemntsbyclassname('classname')
+document.queryselector().innerhtml
+"to take the value of this elemnt"
+document.queryselector().value='the value I want to input'
+document.queryselector().remove
+document.queryselector().value
+
+EX:-at the class
+
+<html lang="en">
+<head>
+<title>javascript</title>
+
+</head>
+<body>
+<div id="app">
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+//fruits=['banana','strawberry','orange','grabefruit','avocado']
+//let result=fruits.filter(word => word.length==6);
+let app=new Vue({
+ el:'#app',
+ data:{
+  sayhi:'HELLO'
+},
+methods:{
+//put the function that I want
+translate(){
+sayhi='hi'
+}
+}
+})
+</script>
+
+</body>
+
+
+
+
+

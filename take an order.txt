@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+              <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>vue task</title>
+</head>
+<body class="bg-gray-300">
+<div id="app">
+<div class="flex justify-center mt-10">
+<input id="root1" v-model="juicetype" class=" rounded rounded-md outline-none border-2 focus:border-purple-300">
+<button @click="Decrement()" class="ml-4  w-10 h-10 rounded rounded-md bg-purple-500 "><font class="text-base text-white face='veotec Bold' ">-</font></button>
+<input v-model="ordernumber" id="root2" type="number" class="ml-1 mr-1 w-12 pl-3 rounded rounded-md bg-white outline-none border-2 focus:border-purple-300 " >
+<button @click="Increment()" class=" mr-1 w-10 h-10 rounded rounded-md bg-purple-500"><font class="text-base text-white face='veotec Bold' ">+</font></button>
+</div>
+<div class="flex justify-center">
+<button @click="orderinformation('Item name,Item qty')" class="ml-72 mt-5 p-2 rounded rounded-md bg-yellow-400 border-2 focus:border-black">add</button>
+</div>
+<div v-for="order in orders" v-if="orders!=[]">
+<div class="mt-10 flex justify-center">
+<div >
+<h1 class="mr-48 text-Bold text-purple-700 ">Item name</h1>
+{{order.juicetype}}<br>
+<p class="text-purple-500">__________________________________________</p>
+</div>
+<div>
+<h2 class="text-Bold text-purple-700 ">Item qty</h2>
+{{order.ordernumber}}
+</div>
+</div>
+</div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<script>
+
+let app= new Vue({
+el:"#app",
+data:{
+juicetype:'',
+//activetab:null,
+ordernumber:0,
+orders:[]
+},
+
+methods:{
+
+Increment(){
+
+this.ordernumber++;
+
+},
+Decrement(){
+this.ordernumber--;
+
+},
+
+orderinformation() {
+let order = {
+juicetype: this.juicetype,
+ordernumber: this.ordernumber,
+                }
+this.orders.push(order)
+
+            }
+//showTab(tab){
+//this.activetab=tab
+//},
+
+  }
+})
+
+
+</script>
+
+
+</body>

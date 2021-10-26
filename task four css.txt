@@ -1,0 +1,59 @@
+.firstbutton{
+background:#FD4801
+}
+i:hover{
+transform: scale(1.4);
+}
+.img-resize{
+width:600px;
+height:9/12 ;
+
+}
+.img-resize2{
+width:500px;
+height:3/12;
+margin-right:20;
+}
+.fa-color {
+color:white;
+background: #FF4900
+}
+#secondcircuile{
+background: #FFB901;
+}
+#thirdcircuile{
+background: #302E43;
+}
+#fa-color{
+  background:#FFB901;
+
+}
+#circuilefour{
+background: #302E43;
+}
+#circuilefive{
+background:#FF4900;
+}
+.firsttext{
+color: #FF4900;
+}
+.secondtext{
+color: #F4BA00;
+
+}
+.thirdtext{
+color:#302E43;
+}
+.stars{
+color:#FB4B02;
+}
+.background1{
+background:#FB4B02;
+}
+.background2{
+background:#F5BD06;
+}
+
+.background3{
+background:#4B5563;
+}

@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c502debbd5.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="himma.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Himmma webdesign</title>
+<style media="screen">
+
+/* .bg-nav{
+  background: url("");
+  /* background-color:rgba(0, 0, 0, 0.5); */
+  /* background-position: center;
+  filter: brightness(70%); */
+/* } */
+</style>
+</head>
+<body class="bg-gray-800">
+<div class="flex flex-wrap justify-center mb-20">
+
+
+  <div class="flex items-start relative justify-between h-96  px-4 py-3 rounded-lg sm:w-full md:w-11/12 lg:w-9/12  lg:mt-10 md:mt-10 ">
+  <img class="object-cover h-96 top-0 right-0 rounded-lg opacity-30 absolute w-full" src="first pic.jpg" alt="">
+      <div class="flex items-center z-10">
+          <div class="secondbutton rounded-full bg-white p-1 border-2 ml-2">
+              <img
+                      class="w-16 h-16 rounded-full" src="himma.jpg" alt=""/></div>
+          <div class="flex flex-col ml-2">
+              <p class="text-white text-3xl ml-4">?????</p>
+              <p class="text-white text-2xl ">HIMMA</p>
+          </div>
+      </div>
+      <div class="flex z-10 pt-5 pr-7">
+          <div class=" pr-10 transform hover:scale-110"><font class="text-white  text-lg lg:text-xl  ">WHY HIMMA </font>
+          </div>
+          <div class=" pr-10 transform hover:scale-110"><font class="text-white  text-lg lg:text-xl"> WORKS </font></div>
+          <div class=" pr-10 transform hover:scale-110"><font class="text-white   text-lg lg:text-xl"> ABOUT </font></div>
+          <div class="  pr-10 transform hover:scale-110"><font class="text-white   text-lg lg:text-xl"> EVENTS </font>
+          </div>
+          <div class=" transform hover:scale-110"><font class="text-white   text-lg  lg:text-xl"> CONTACT </font></div>
+
+      </div>
+      <div class="flex z-10 pt-5 pr-3">
+          <div class="pr-2 transform hover:scale-110"><font class=" text-white   text-4xl "> <i
+                  class="fab fa-instagram"></i> </font></div>
+          <div class="transform hover:scale-110 "><font class=" text-white   text-4xl "> <i
+                  class="fab fa-facebook"></i> </font></div>
+      </div>
+  </div>
+
+  <div class=" mt-5 bg-gray-200 rounded-lg md:border-purple-900 md:border-2 lg:border-purple-900 lg:border-2 sm:w-full md:w-11/12 lg:w-9/12 ">
+  <div class="flex">
+  <div class="w-full h-full sm:mt-12 sm:ml-4 md:ml-8 lg:mt-44 lg:ml-8  ">
+  <font class="text-purple-900 sm:text-2xl  lg:text-3xl font-bold   ">Who are we (HIMMA)?</font><br><br>
+  <font class="text-gray-500 sm:text-lg lg:text-2xl italic  ">HIMMA is a project that advocate for voluntary work<br> and societal responsibility, which account for a third<br> of the authority in democratic countries,<br> it has a positive and a very important effect on the<br> community, and with even bigger impact on the long-run.<br>
+  Social mobility, voluntary work or electoral responsibility,<br> these are the principles that form a country suitable<br> for us and build a national state that achieve everyone's rights.</font><br>
+  <div class="flex">
+  <button class="transform hover:scale-105 secondbutton rounded-lg  bg-gray-200 border border-purple-900 border-8 px-8 py-3 ml-1 mr-1 mt-10"><font  class="text-purple-900 font-bold text-2xl">learn more</font> </button>
+  <div class="transform hover:scale-105 flex">
+  <i class="far fa-play-circle text-purple-900 mt-12 pt-1 ml-3 text-4xl"></i>
+  <font class="text-purple-900 text-xl mt-11 ml-1 font-bold"><font class="pl-2">view</font><br>our story</font>
+  </div>
+  </div>
+  <font class="text-purple-900 sm:text-xs lg:text-xl">______________________________________________________</font>
+  </div>
+  <div class="flex flex-col ml-auto sm:mt-3 sm:mr-3 md:mt-5 md:mr-5  lg:mt-6 lg:mr-6 ">
+  <div class="flex mb-5">
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52  md:w-52 md:h-52  lg:w-96 lg:h-96   mr-5 rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="sada" alt="" /></div>
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52 lg:w-96 lg:h-96  rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg " src="" id="en" alt="" /></div>
+  </div>
+  <div class="flex">
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52 lg:w-96 lg:h-96   mr-5 rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="es" alt="" /></div>
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52  md:w-52 md:h-52      lg:w-96 lg:h-96  rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="frasha" alt="" /></div>
+  </div>
+  </div></div>
+  <div class="flex mt-12">
+    <div class="transform hover:scale-105 w-full h-full sm:ml-3 sm:mt-20  md:ml-8 md:mt-16 md:mb-10   lg:ml-10 lg:mt-16 lg:mb-10 "><img class="rounded-lg sm:w-80  lg:w-8/12 lg:h-7/12 h-full "id="EN3KAS" src="" alt="" /></div>
+  <div class="lg:mt-64 sm:mr-20 sm:mt-20 md:mr-20 lg:mr-44">
+  <font class="text-blue-900 sm:text-2xl lg:text-3xl md:text-2xl font-bold shadow-2xl"> EN3KAS </font><br><br>
+  <font class="text-gray-500 sm:text-lg  md:text-xl lg:text-2xl italic">Is our new event directed to artists and art lovers!<br>EN3KAS is an art exhibit dedicated to art that showcase<br> societal issues and convey meaningful thoughts,<br> it helded by 'Creative Space' of the STATION in Baghdad.
+  </font>
+  <div class="flex">
+  <button class="transform hover:scale-105 secondbutton rounded-lg  bg-gray-200 border border-blue-900 border-8 px-8 py-3 ml-1 mr-1 mt-10"><font  class="text-blue-900 text-2xl font-bold">click here</font> </button>
+  <div class="transform hover:scale-105 flex">
+  <i class="far fa-play-circle text-blue-900 mt-12 ml-3 pt-1 text-4xl"></i>
+  <font class="text-blue-900 text-xl mt-11 ml-1 font-bold"><font class="pl-2">view</font><br>the video</font>
+  </div></div>
+  <font class="text-blue-900 sm:text-xs lg:text-xl">_________________________________________________________</font>
+  </div>
+  </div>
+
+
+  <div class="main-carousel  mb-16 mt-3">
+    <div class="cell mr-3   "><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900 "src="photo1.jpg"></div>
+    <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo2.jpg"></div>
+    <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo3.jpg"></div>
+    <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo4.jpg"></div>
+  <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo6.jpg"></div>
+  <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo7.jpg"></div>
+  <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo8.jpg"></div>
+  <div class="cell mr-3"><img class="transform hover:scale-95 w-56 h-56 rounded-lg border-2 border-blue-900" src="photo9.jpg"></div>
+  </div>
+
+  <div class="flex mt-36 mb-10">
+  <div class="lg:ml-8 sm:mt-20 sm:ml-3 lg:mt-44 md:mt-10 md:ml-8">
+  <font class="text-purple-900 sm:text-2xl lg:text-3xl font-bold shadow-3xl"> ZUMBALAK </font><br><br>
+  <font class="text-gray-500 sm:text-lg lg:text-2xl italic">Our play that was preformed on thursday and friday<br> was as great as it is important in the same time,<br> because it's entirely youth-made, from the writing<br> to directing and acting, it was made by 'Ishtar Iraq<br> Film Production' and its story reflect our everyday stories,<br> stories that each one of us can relate to, and learn <br>something from.
+  Also Our audience that attended enjoyed the show alot.<br></font>
+  <div class="flex">
+  <button class="transform hover:scale-105 secondbutton rounded-lg  bg-gray-200 border border-purple-900 border-8 px-8 py-3 ml-1 mr-1 mt-10"><font  class="text-purple-900 text-2xl font-bold">click here</font> </button>
+  <div class="transform hover:scale-105 flex">
+  <i class="far fa-play-circle text-purple-900 mt-12 pt-1 ml-3 text-4xl"></i>
+  <font class="text-purple-900 text-xl mt-11 ml-1 font-bold"><font class="pl-2">view</font><br>the play</font>
+  </div></div>
+  <font class="text-purple-900 sm:text-xs lg:text-lg">_________________________________________________________</font>
+  </div>
+
+  <div class="flex flex-col ml-auto sm:mr-3 sm:mt-10 md:mt-4 md:mr-4  lg:mt-8 lg:mr-8 ">
+  <div class="flex mb-5">
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52  lg:w-96 lg:h-96   mr-5 rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="zum" alt="" /></div>
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52  lg:w-96 lg:h-96   rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg " src="" id="actress" alt="" /></div>
+  </div>
+  <div class="flex">
+  <div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52  lg:w-96 lg:h-96   mr-5 rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="stage1" alt="" /></div>
+<div class="transform hover:scale-105 motion-reduce:transform-none sm:w-52 sm:h-52 md:w-52 md:h-52  lg:w-96 lg:h-96   rounded-lg shadow-2xl"><img class="w-full h-full rounded-lg" src="" id="stage2" alt="" /></div>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <div class=" sm:w-full md:w-11/12 lg:w-9/12 w-full container mt-10">
+  <div class="slider">
+
+      <div class="box1 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Art</h1>
+              <p>
+              Art is a mirror that reflect social issues from the artist's view in a way that reach the viewer in a natural and fast way,
+              that art can partake in peace building and war rejecting,
+              Follow us to know our artistry activities.
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+            <div class="inner"  ><div><img class=" w-full h-full rounded-3xl " src="box1.jpg"  alt="" /></div></div>
+
+
+          </div>
+      </div>
+
+
+      <div class="box2 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Childbirth</h1>
+              <p>
+               In the past years we started hearing a long discussion surrounding the expanding population and gender selection,
+               That's why our next debate will be :
+               (Childbirth has become a reason in population expanding, maybe adoption is the solution).
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+              <div class="inner"><div><img class=" w-full h-full rounded-3xl " src="box2.jpg"  alt="" /></div></div>
+          </div>
+      </div>
+
+      <div class="box3 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>The working woman</h1>
+              <p>
+                The rate of working women have been increasing lately, according to the demands of our modern era, where it has became a priority for her,
+                but there is a side that says that work for women will cause a family disorder giving that she primarily is the one to look after the children and care for the house.
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+              <div class="inner"><div><img class=" w-full h-full rounded-3xl " src="box3.jpg"  alt="" /></div></div>
+          </div>
+      </div>
+
+      <div class="box4 box">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Higher Education</h1>
+              <p>
+                  The thing that worries the newly graduates is getting a job opportunity in their academic major, so they sometimes seek higher education to compete for the job, but some wonder 'Is higher education a measure for the employees competence?
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+              <div class="inner"><div><img class=" w-full h-full rounded-3xl " src="box4.jpg"  alt="" /></div></div>
+          </div>
+      </div>
+
+      <div class="box5 box mb-20">
+          <div class="bg"></div>
+          <div class="details">
+              <h1>Social media</h1>
+              <p>
+                None of us can do without docial media, and most of us keep up with the latest news,
+                But that has contributed in spreading both fake and real news, therefore a number of people have lost trust in social media and see them as rumer-spreading tool,
+                What do you think? Share your thoughts with us
+              </p>
+              <button>Check Now</button>
+          </div>
+
+          <div class="illustration">
+              <div class="inner"><div><img class=" w-full h-full rounded-3xl " src="box5.jpg"  alt="" /></div></div>
+          </div>
+      </div>
+
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91">
+      <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff" /></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91">
+      <path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff" /></svg>
+      <div class="trail hidden">
+          <div class="box1 active hidden">1</div>
+          <div class="box2 hidden">2</div>
+          <div class="box3 hidden">3</div>
+          <div class="box4 hidden">4</div>
+          <div class="box5 hidden">5</div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <div class="p-2 w-full pt-8 mt-14  text-center">
+        <a class="text-indigo-500">Himmma@email.com</a>
+        <p class="leading-normal my-5">Baghdad-Alkarada
+          <br>The Staion, 8C2P+HP Baghdad
+        </p>
+        <span class="inline-flex">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-4 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-4 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-4 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'right',
+  wrapAround:true,
+  freeScroll: true
+});
+
+
+let zum=document.getElementById('zum');
+let zumbalak=['zumbalak.jpg','zumbalak1.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*2);
+zum.src=zumbalak[random];
+}, 2000);
+
+let actress=document.getElementById('actress');
+let actingteam=['zumbalak2.jpg','zumbalak3.jpg','zumbalak4.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*3);
+actress.src=actingteam[random];
+}, 2000);
+
+let stage1=document.getElementById('stage1');
+let stage=['zumbalak5.jpg','zumbalak6.jpg','zumbalak7.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*3);
+stage1.src=stage[random];
+}, 2000);
+
+let stage2=document.getElementById('stage2');
+let stagee=['zumbalak8.jpg','zumbalak9.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*2);
+stage2.src=stagee[random];
+}, 2000);
+
+
+
+let sada=document.getElementById('sada');
+let asdaa=['3.jpg','sada.jpg','sada1.jpg','sada2.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*4);
+sada.src=asdaa[random];
+}, 2000);
+
+
+let en=document.getElementById('en');
+let en1=['4.jpg','en1.jpg','en2.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*3);
+en.src=en1[random];
+}, 2000);
+
+let es=document.getElementById('es');
+let es1=['5.jpg','es1.jpg','es2.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*3);
+es.src=es1[random];
+}, 2000);
+
+let frasha=document.getElementById('frasha');
+let frasha1=['f1.jpg','f5.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*2);
+frasha.src=frasha1[random];
+}, 2000);
+
+
+let EN3KAS=document.getElementById('EN3KAS');
+let EN3KASS=['EN3.jpg','EN3KAS.jpg']
+setInterval(function(){
+let random=Math.floor(Math.random()*2);
+EN3KAS.src=EN3KASS[random];
+}, 2000);
+
+
+
+
+const slider = document.querySelector(".slider");
+// All trails
+const trail = document.querySelector(".trail").querySelectorAll("div");
+
+// Transform value
+let value = 0;
+// trail index number
+let trailValue = 0;
+// interval (Duration)
+let interval = 4000;
+
+// Function to slide forward
+const slide = condition => {
+// CLear interval
+clearInterval(start);
+// update value and trailValue
+condition === "increase" ? initiateINC() : initiateDEC();
+// move slide
+move(value, trailValue);
+// Restart Animation
+animate();
+// start interal for slides back
+start = setInterval(() => slide("increase"), interval);
+};
+
+// function for increase(forward, next) configuration
+const initiateINC = () => {
+// Remove active from all trails
+trail.forEach(cur => cur.classList.remove("active"));
+// increase transform value
+value === 80 ? value = 0 : value += 20;
+// update trailValue based on value
+trailUpdate();
+};
+
+// function for decrease(backward, previous) configuration
+const initiateDEC = () => {
+// Remove active from all trails
+trail.forEach(cur => cur.classList.remove("active"));
+// decrease transform value
+value === 0 ? value = 80 : value -= 20;
+// update trailValue based on value
+trailUpdate();
+};
+
+// function to transform slide
+const move = (S, T) => {
+// transform slider
+slider.style.transform = `translateX(-${S}%)`;
+//add active class to the current trail
+trail[T].classList.add("active");
+};
+
+const tl = gsap.timeline({ defaults: { duration: 0.6, ease: "power2.inOut" } });
+tl.from(".bg", { x: "-100%", opacity: 0 }).
+from("p", { opacity: 0 }, "-=0.3").
+from("h1", { opacity: 0, y: "30px" }, "-=0.3").
+from("button", { opacity: 0, y: "-40px" }, "-=0.8");
+
+// function to restart animation
+const animate = () => tl.restart();
+
+// function to update trailValue based on slide value
+const trailUpdate = () => {
+if (value === 0) {
+trailValue = 0;
+} else if (value === 20) {
+trailValue = 1;
+} else if (value === 40) {
+trailValue = 2;
+} else if (value === 60) {
+trailValue = 3;
+} else {
+trailValue = 4;
+}
+};
+
+// Start interval for slides
+let start = setInterval(() => slide("increase"), interval);
+
+// Next and Previous button function (SVG icon with different classes)
+document.querySelectorAll("svg").forEach(cur => {
+// Assign function based on the class Name("next" and "prev")
+cur.addEventListener("click", () => cur.classList.contains("next") ? slide("increase") : slide("decrease"));
+});
+
+// function to slide when trail is clicked
+const clickCheck = e => {
+// CLear interval
+clearInterval(start);
+// remove active class from all trails
+trail.forEach(cur => cur.classList.remove("active"));
+// Get selected trail
+const check = e.target;
+// add active class
+check.classList.add("active");
+
+// Update slide value based on the selected trail
+if (check.classList.contains("box1")) {
+value = 0;
+} else if (check.classList.contains("box2")) {
+value = 20;
+} else if (check.classList.contains("box3")) {
+value = 40;
+} else if (check.classList.contains("box4")) {
+value = 60;
+} else {
+value = 80;
+}
+// update trail based on value
+trailUpdate();
+// transfrom slide
+move(value, trailValue);
+// start animation
+animate();
+// start interval
+start = setInterval(() => slide("increase"), interval);
+};
+
+// Add function to all trails
+trail.forEach(cur => cur.addEventListener("click", ev => clickCheck(ev)));
+
+// Mobile touch Slide Section
+const touchSlide = (() => {
+let start, move, change, sliderWidth;
+
+// Do this on initial touch on screen
+slider.addEventListener("touchstart", e => {
+// get the touche position of X on the screen
+start = e.touches[0].clientX;
+// (each slide with) the width of the slider container divided by the number of slides
+sliderWidth = slider.clientWidth / trail.length;
+});
+
+// Do this on touchDrag on screen
+slider.addEventListener("touchmove", e => {
+// prevent default function
+e.preventDefault();
+// get the touche position of X on the screen when dragging stops
+move = e.touches[0].clientX;
+// Subtract initial position from end position and save to change variabla
+change = start - move;
+});
+
+const mobile = e => {
+// if change is greater than a quarter of sliderWidth, next else Do NOTHING
+change > sliderWidth / 4 ? slide("increase") : null;
+// if change * -1 is greater than a quarter of sliderWidth, prev else Do NOTHING
+change * -1 > sliderWidth / 4 ? slide("decrease") : null;
+// reset all variable to 0
+[start, move, change, sliderWidth] = [0, 0, 0, 0];
+};
+// call mobile on touch end
+slider.addEventListener("touchend", mobile);
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>

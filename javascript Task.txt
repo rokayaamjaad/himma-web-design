@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+<title>javascript</title>
+
+</head>
+<body>
+
+
+<script>
+
+let cities={
+Name:"BAGHDAD",
+CityAge:1295 ,
+Baghad_is_the_capital_city_of_iraq:true,
+intresting_places_in_Baghdad:["AL_Mutanabi street","AL_Rasheed street","AL_Mustansiriya school","Abbasid_palace"]
+
+}
+
+for(i=0; i<=0; i++){
+console.log(cities.intresting_places_in_Baghdad)
+}
+cities.census=7.665;
+
+console.log(cities)
+
+</script>
+
+</body>
